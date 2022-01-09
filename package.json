@@ -1,0 +1,15 @@
+{
+  "name": "student-biodata",
+  "version": "1.0.0",
+  "description": "This is a website to enter students data and list it on a table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arjun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
+  }
+}
