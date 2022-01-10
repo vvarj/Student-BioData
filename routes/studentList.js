@@ -1,9 +1,12 @@
 const express = require('express');
 const router = express.Router();
+const studentRecord = require('../database/studentRecord');
 
-router.get('/', (req, res) => {
-
-    res.render('studentList.hbs');
+router.get('/', async (req, res) => {
+     
+  let studentList = await studentRecord.find();
+  console.log(studentList);
+    res.render('studentList.hbs',{studentList});
   })
 
 

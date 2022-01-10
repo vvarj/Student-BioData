@@ -9,7 +9,10 @@
   "author": "arjun",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "hbs": "^4.2.0"
+    "express-fileupload": "^1.2.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.1.5"
   }
 }
